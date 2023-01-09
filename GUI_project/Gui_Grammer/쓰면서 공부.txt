@@ -1,0 +1,25 @@
+Button(command)
+Label.config 같이
+Text
+Entry
+Text.get("1.0", END)
+Text.insert(End, 내용)
+entry(0 또는 END, 내용)
+Entry.get()
+Listbox
+Listbox.get(0, 2)
+Checkbutton-variable=Intvar
+Intvar.get() 체크시 1 체크해제0
+Radiobutton-variable=Intvar,stringvar
+근데 얘는 value=""로 get값 지정가능
+ttk.Combobox
+ttk.Progressbar
+Menu
+messagebox,show함수들
+Frame, Frame안에 버튼도 들어가고 하는 모습들
+LabelFrame
+scrollbar.config과 listbox의 yscroll...속성이 매핑되어야되
+
+그냥 pack으로 가면 위에서 쌓이는듯
+pack(side="left", fill="both", expand=True)의 속성들
+grid(row=1,column=0, sticky=N+E+W+S, padx=3, pady=3)의 속성들
